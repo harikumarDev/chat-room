@@ -32,7 +32,6 @@ io.on("connection", (socket) => {
   });
 
   socket.on("send_message", async (data) => {
-    console.log("User sent message: ", data);
     const { sender, room } = data;
 
     socket.to(room.name).emit("receive_message", data);
