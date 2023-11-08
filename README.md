@@ -1,7 +1,7 @@
 # CHAT ROOM App using Socket.io and MERN Stack
 
 ## Major Technologies Used
-  - React, Node.js and MongoDB
+  - React, Node.js (v18.7.1) and MongoDB
   - Socket.io
   - Express and Mongoose
   - Tailwind CSS and Material UI
